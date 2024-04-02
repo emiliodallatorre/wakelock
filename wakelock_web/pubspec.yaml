@@ -15,9 +15,7 @@ dependencies:
   js: ^0.6.7
 
   wakelock_platform_interface:
-    git:
-      url: https://github.com/emiliodallatorre/wakelock.git
-      path: wakelock/wakelock_platform_interface
+    path: ../wakelock_platform_interface
 
 dev_dependencies:
   flutter_test:
@@ -26,9 +24,7 @@ dev_dependencies:
   flutter_lints: ^2.0.2
 
   wakelock:
-    git:
-      url: https://github.com/emiliodallatorre/wakelock.git
-      path: wakelock/wakelock
+    path: ../wakelock
 
 flutter:
   plugin:
